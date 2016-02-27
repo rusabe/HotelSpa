@@ -6,9 +6,175 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hotel Spa</title>
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/foundation-icons.css">
+
   </head>
   <body>
-    
+  <div class="off-canvas-wrapper">
+    <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+      <div class="off-canvas position-left" id="mainMenu" data-off-canvas data-position="left">
+        <h2>My Canvas</h2>
+      </div>
+
+      <div class="off-canvas-content" data-off-canvas-content>
+        <section class="promo-video">
+          <div id="overlay"></div>
+          <video id="video" autoplay loop>
+            <source src="assets/videos/videobg.mp4" type="video/mp4">
+            <source src="assets/videos/videobg.webm" type="video/webm">
+            <source src="assets/videos/videobg.ogv" type="video/ogv">
+          </video>
+          <div class="headliner">
+            <div class="column row">
+              <h1 class="text-center">Passion for Excellence</h1>
+            </div>
+          </div><!-- .headliner -->
+
+          <div class="header-content">
+            <div class="row">
+              <div class="medium-4 columns">
+                <img src="assets/images/logo.svg">
+              </div>
+              <div class="medium-4 columns">
+                <a href="#" class="menu-icon float-right" data-open="mainMenu"></a>
+              <div>
+
+            </div>
+          </div> <!-- .header-content -->
+        </section>    
+
+        <section class="rooms row">
+          <h2>Our Rooms</h2>
+          <div class="medium-4 columns">
+            <div class="room-image">
+              <img src="assets/images/rooms/room-01.jpg">
+              <div class="room-title">
+                <h3>Room 01</h3>
+              </div>
+            </div>
+            <div class="room-content">
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen. 
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class="room-image">
+              <img src="assets/images/rooms/room-02.jpg">
+              <div class="room-title">
+                <h3>Room 02</h3>
+              </div>
+            </div>
+            <div class="room-content">
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.  
+            </div>
+          </div>
+          <div class="medium-4 columns">
+            <div class="room-image">
+              <img src="assets/images/rooms/room-03.jpg">
+              <div class="room-title">
+                <h3>Room 03</h3>
+              </div>
+            </div>
+            <div class="room-content">
+              Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos y los mezcló de tal manera que logró hacer un libro de textos especimen.
+            </div>
+          </div>
+        </section>
+        <div class="row columns">
+          <a href="" class="button float-right">View All</a>
+        </div>
+        
+        <div class="separator-image pool-image"></div>
+
+        <section class="about-us-gallery">
+          <div class="medium-6 empty columns"></div>
+          <div class="medium-6 empty columns bluebg"></div>
+
+          <div class="content-about-us">
+            <div class="row">
+              <div class="medium-6 columns">
+                <h2>About Us</h2>
+                <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eget dolor ut neque efficitur efficitur quis a purus. Suspendisse quis nisl a purus bibendum consequat. Sed rhoncus enim nunc, quis faucibus ante dapibus venenatis. Praesent urna diam, placerat tempor pulvinar eu, tincidunt et justo.
+                </p>
+                <p>
+                Vestibulum vehicula facilisis est et consectetur. Nullam libero justo, efficitur nec ullamcorper sit amet, hendrerit eu nulla. Phasellus tempor aliquam nunc vitae ultrices. Curabitur sodales urna a finibus lacinia. Mauris in enim pulvinar, consequat orci quis, posuere purus. Quisque in faucibus metus. Proin congue velit sed sagittis commodo. Mauris rhoncus sapien sed magna scelerisque, sagittis condimentum turpis accumsan. 
+                </p>
+              </div>
+              <div class="medium-6 columns bluebg">
+                <h2 class="white">Gallery</h2>
+                <div class="row small-up-3 medium-up-3 large-up-3">
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image01.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image02.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image03.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image04.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image05.jpg">
+                  </div>
+                  <div class="column">
+                    <img class="thumbnail" src="assets/images/gallery/thumbnail/image06.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <div class="separator-image bar-image"></div>
+
+        <section class="booking row">
+          <div class="large-8 columns large-centered text-center">
+            <h2>Book Now</h2>
+            <p class="text-center">
+                Vestibulum vehicula facilisis est et consectetur. Nullam libero justo, efficitur nec ullamcorper sit amet, hendrerit eu nulla. Phasellus tempor aliquam nunc vitae ultrices. Curabitur sodales urna a finibus lacinia. Mauris in enim pulvinar, consequat orci quis, posuere purus. Quisque in faucibus metus. Proin congue velit sed sagittis commodo. Mauris rhoncus sapien sed magna scelerisque, sagittis condimentum turpis accumsan.
+            </p>
+            <a class="button">Book Now</a>
+          </div>
+        </section>
+
+        <footer>
+          <div class="row">
+            <nav class="large-5 columns">
+              <ul class="vertical menu large-horizontal">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </nav>
+            <div class="contact-information large-3 columns">
+              <ul class="no-bullet vertical">
+                <li><i class="fi-marker"></i> 842 State Street East, New Albany, IN 4790</li>
+                <li><i class="fi-telephone"></i> +1-8402-245-232</li>
+                <li><i class="fi-mail"></i> contact@hoteslspa.com</li>
+              </ul>
+            </div>
+            <div class="about-us large-4 columns">
+              <h4>About Us</h4>
+              <p>Phasellus tempor aliquam nunc vitae ultrices. Curabitur sodales urna a finibus lacinia. Mauris in enim pulvinar, consequat orci quis, posuere purus. Quisque in faucibus metus. Proin congue velit sed sagittis commodo.</p>
+
+              <ul class="menu social align-right">
+                <li><a href="http://twitter.com"><i class="fi-social-twitter"></i></a></li>
+                <li><a href="http://www.facebook.com"><i class="fi-social-facebook"></i></a></li>
+              </ul>
+            </div>
+          </div> 
+          <p class="text-center copyright">All Rights Reserved Hotel & Spa 2015</p>
+        </footer>
+
+      </div>
+    </div>
+  </div>
+
 
     <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/what-input/what-input.js"></script>
